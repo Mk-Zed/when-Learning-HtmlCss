@@ -132,48 +132,60 @@ nav {
     background: transparent;
     border: none;
     width: 50px;
-    margin: 6px;
+    padding: 6px;
     cursor: pointer;
     display: none;
     outline: none;
 }
 
 .menu2 {
-    width: 100px;
-    background-color: #555;
+    width: 200px;
     float: right;
     position: absolute;
-    right: -100px;
+    right: -200px;
     top: 70px;
     position: fixed;
+    background-color: darkslategrey;
+}
+
+.menu2 li i {
+    width: 15px;
+    height: 15px;
+    background-size: cover !important;
+    display: inline-block;
+    margin: 0px 9px;
+    vertical-align: -5px;
+    cursor: pointer;
 }
 
 .menu2 li a {
     color: #f90101;
 }
-.menu2 li{
-margin: 5px;
+
+.menu2 li {
+    margin: 10px;
 }
 
 
-.btn_menu:hover .menu2{
+.btn_menu:hover .menu2 {
     right: 0;
     transition: 1s;
 }
 
 .drop-down-menu2:hover .drop-down2 {
-    right: 105px;
+    right: 180px;
     transition: 1s;
 }
 
 .drop-down2 {
-    width: 50px;
+    width: 100px;
     background-color: #413434;
     top: 70px;
-    right: -50px;
+    right: -100px;
     position: fixed;
 }
-.drop-down2 li{
+
+.drop-down2 li {
     color: #06d710;
 }
 

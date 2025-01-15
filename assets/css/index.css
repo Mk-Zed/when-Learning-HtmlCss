@@ -851,7 +851,7 @@ nav {
     width: 100%;
     height: auto;
     border-bottom: 1px solid #ddd;
-    padding: 15px;
+    padding: 5px;
 }
 
 .cat-side>:last-child {
@@ -870,7 +870,6 @@ nav {
 
 .side-box ul li input {
     vertical-align: -2px;
-
 }
 
 .side-box ul li label {

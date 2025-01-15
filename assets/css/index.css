@@ -970,7 +970,7 @@ nav {
     }
 
     .container {
-        padding: 0 100px;
+        padding: 0 50px;
     }
 
     .ad-left {
@@ -1005,19 +1005,14 @@ nav {
     .cat-body {
         flex-wrap: wrap;
     }
-
     .cat-item {
-        width: 45%;
+        width: 95%;
     }
 
 
 }
 
-@media screen and (max-height:500px) {
-    .panel-sidebar-set {
-        height: 100%;
-    }
-}
+
 
 @media screen and (max-width:775px) {
     .new-post {
@@ -1114,6 +1109,12 @@ nav {
     }
 
 
+}
+
+@media screen and (max-height:500px) {
+    .panel-sidebar-set {
+        height: 100%;
+    }
 }
 
 @media screen and (max-width:450px) {

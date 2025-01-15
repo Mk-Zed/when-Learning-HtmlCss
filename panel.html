@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>پنل فروشگاه</title>
+</head>
+
+<body>
+
+    <div class="main-panel">
+        <header class="header">
+            <div class="container">
+                <div class="panel-head">
+                    <p>فروشگاه چی میگه</p>
+                    <div class="user-name">
+                        <span>Moradam</span>
+                        <img src="assets/images/icons/user.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="panel">
+        <div class="panel-sidebar">
+            <div class="panel-sidebar-pic">
+                <img src="assets/images/icons/shop.png" alt="">
+            </div>
+            <div class="panel-sidebar-set">
+                <ul>
+                    <li>
+                        <span style="background: url(assets/images/icons/settings.png) center no-repeat;"></span>
+                        <a href="">تنظیمات صفحه اصلی</a>
+                    </li>
+                    <li>
+                        <span style="background: url(assets/images/icons/list.png) center no-repeat;"></span>
+                        <a href="">فهرست ها</a>
+                    </li>
+                    <li>
+                        <span style="background: url(assets/images/icons/category.png) center no-repeat;"></span>
+                        <a href="">دسته ها</a>
+                    </li>
+                    <li>
+                        <span style="background: url(assets/images/icons/Accounting.png) center no-repeat;"></span>
+                        <a href="">حسابداری</a>
+                    </li>
+                    <li>
+                        <span style="background: url(assets/images/icons/Products.png) center no-repeat;"></span>
+                        <a href="">محصولات</a>
+                    </li>
+                    <li>
+                        <span style="background: url(assets/images/icons/coupon.png) center no-repeat;"></span>
+                        <a href="">کد تخفیف</a>
+                    </li>
+                    <li>
+                        <span style="background: url(assets/images/icons/exit.png) center no-repeat;"></span>
+                        <a style="color: #f60303;" href="">خروج</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="panel-body">
+
+            <h1>تنظیمات اصلی</h1>
+            <hr class="hr">
+            <form action="">
+                <div class="setting-input">
+                    <label for="site-title">عنوان سایت</label>
+                    <input id="site-title" type="text" name="SiteTitle">
+                </div>
+                <div class="setting-input">
+                    <label for="first-color">رنگ اصلی سایت</label>
+                    <input id="first-color" type="color" name="FirstColor">
+                </div>
+                <div class="setting-input">
+                    <label for="sec-color">رنگ مکمل سایت</label>
+                    <input id="sec-color" type="color" name="SecondColor">
+                </div>
+                <div class="setting-input">
+                    <label for="site-logo">انتخاب لوگوی سایت</label>
+                    <input id="site-logo" type="file" name="SiteLogo">
+                </div>
+                <div class="setting-input">
+                    <label for="site-intro">متن قسمت معرفی سایت</label>
+                    <input id="site-intro" type="text" name="SiteIntro">
+                </div>
+                <input class="send-btn" type="submit" value="ذخیره">
+            </form>
+
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
